@@ -1,0 +1,12 @@
+[package]
+name = "no-std-minimal"
+version = "0.1.0"
+authors = ["Bruno Lemke <bruno.lemke@informatik.hu-berlin.de>"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
