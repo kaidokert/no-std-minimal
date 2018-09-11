@@ -36,5 +36,5 @@ pub extern "C" fn mainCRTStartup() -> ! {
 
 #[no_mangle]
 pub extern "C" fn main() -> ! {
-    loop {}
+    panic!()
 }
