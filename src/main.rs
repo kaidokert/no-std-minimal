@@ -9,6 +9,4 @@ fn handle_panic(_: &PanicInfo) -> ! {
 }
 
 #[no_mangle]
-pub extern "C" fn main() -> ! {
-    panic!()
-}
+pub extern "C" fn main() {}
